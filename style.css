@@ -71,6 +71,10 @@ button{
     text-align: center;
     background: #14B3D6;
 }
+button:hover{
+    background: rgba(243, 243, 243, 0.83);
+    cursor: pointer;
+}
 @media screen and (max-width: 768px) {
     main{
         height: 600px;
