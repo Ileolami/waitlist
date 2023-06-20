@@ -81,7 +81,7 @@ button:hover{
         width: 380px;
         display: grid;
         padding: auto;
-        margin : 0px;
+        margin : -5px;
         place-content:center;
         background: url(./Ellipse\ 2\ mobile.svg) left top no-repeat, url(./Ellipse\ 1\ mobile.svg) right bottom no-repeat, black;
         background-size: 200px;
