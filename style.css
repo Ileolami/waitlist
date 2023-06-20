@@ -79,6 +79,7 @@ button:hover{
     main{
         height: 600px;
         width: 380px;
+        margin : -10px;
         display: grid;
         padding: auto;
         place-content:center;
