@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Outfit:wght@300&display=swap');
+body{
+    font-family:  'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(243, 243, 243, 0.83);
+}
+main{
+    display: grid;
+    place-content: center;
+    line-height: 19px;
+    height: 500px;
+    margin: 100px 150px;
+    width: 850px;
+    background: url(./Ellipse\ 2.svg) left top no-repeat, url(./Ellipse\ 1.svg) right bottom no-repeat, black;
+    background-size: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #F3F3F3D4;
+    font-weight: 600;
+    font-size: 25px;
+}
+h2 {
+    color: rgba(243, 243, 243, 0.83);
+    font-weight: 700;
+font-size: 60px;
+height: 50px;
+left: calc(50% - 1218px/2);
+background: url(./JOIN\ THE\ WAITLIST\ 2.png) no-repeat ;
+background-size: cover;
+}
+.summary-one{
+    line-height: 20px;
+    margin: 30px auto;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(243, 243, 243, 0.83);
+}
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+input{
+    width: 260px;
+    height: 37px;
+    background: rgba(243, 243, 243, 0.83);
+    border-radius: 5px;
+    border: transparent;
+    padding: 0 5px;
+}
+input::placeholder{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgba(48, 46, 46, 0.31);
+}
+button{
+    width: 120px;
+    height: 37px;
+    gap: 30px;
+    border-radius: 5px;
+    border: transparent;
+    padding: 5px 15px;
+    color: rgba(243, 243, 243, 0.83);
+    text-align: center;
+    background: #14B3D6;
+}
+@media screen and (max-width: 768px) {
+    main{
+        height: 600px;
+        width: 380px;
+        display: grid;
+        padding: auto;
+        place-content:center;
+        background: url(./Ellipse\ 2\ mobile.svg) left top no-repeat, url(./Ellipse\ 1\ mobile.svg) right bottom no-repeat, black;
+        background-size: 200px;
+    }
+    h2 {
+        color: rgba(243, 243, 243, 0.83);
+        font-weight: 700;
+    font-size: 35px;
+    height: 50px;
+    left: calc(50% - 1218px/2);
+    background: url(./JOIN\ THE\ WAITLIST\ 2.png) no-repeat ;
+    background-size: cover;
+    }
+    .detail{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+    input{
+        width: 150px;
+        height: 37px;
+        background: rgba(243, 243, 243, 0.83);
+        border-radius: 5px;
+        border: transparent;
+        padding: 0 5px;
+    }
+    .summary-one{
+        line-height: 20px;
+        padding: 0 40px;
+        font-size: 12px;
+        text-align: center;
+        color: rgba(243, 243, 243, 0.83);
+    }
+    button{
+        width: 160px;
+        height: 37px;
+    }
+
+}
+
